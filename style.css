@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.header{
+     height: 100vh;
+     width: 100%;
+     background: url(background2.jpeg);
+     background-color: white;
+     background-size: cover;
+     background-position: center;
+     
+}
+nav{
+    display: flex;
+    padding: 20px 100px;
+    color: darkgreen;
+
+}
+nav ul {
+    text-align: right;
+    display: inline;
+    list-style: none;
+    flex: 1;
+    color: darkgreen;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+    color: blue;
+    background-color: white;
+}
+
+h1{
+    color: aqua;
+    background-color: black;
+}
+ol li{
+    display: inline-block;
+}
+
+    
+}
+#new .one img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#new .one .details{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: auto;
+    left: 2;
+    padding: auto;
+    transition: 0.3s ease;
+}
+#new .one:hover .details{
+    cursor: pointer;
+    background-color: rgba(128, 128, 80, 0.7);
+}
+.heading{
+    text-align: center;
+    margin-top: 25px;
+}
+.heading h1{
+    font-size: 50px;
+    color: #36455c;
+    margin-bottom: 10px;
+}
+.shop-now-btn{
+    text-align: center;
+    color: green;
+    background-color: blue;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(download\ \(1\).jpeg);
+}
+.contact .content
+{
+    max-width: 800px;
+    text-align: center;
+}
+.contact .content h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+}
+.footer{
+    background-color: #24262b;
+    padding: 70px 0;  
+}
+.container{
+    max-width: 1170px;
+    background-color: red;
+    margin: auto;
+}
+.footer-col{
+    width:25%;
+    padding: 0 15px;
+}
+#feature .features{
+    background-color: white;
+    color: aqua;
+}
+#trending .trends{
+    background-color: aqua;
+    color: black;
+    padding: 2px 4px;
+}
+.about-us img{
+    
+    max-width: ;
+    height: 100%;
+    padding: 100px 80px;
+    
+    align-items: center;
+}
+.information{
+    padding: 35px;
+    text-align: left;
+
+}
+.information p{
+    color: #36455c;
+    font-size: 24px;
+    margin: 15px 0px;
+    text-align: center;
+}
+.buy-btn{
+    background-color: hotpink;
+}
+.overlay h1{
+    text-align: center;
+    padding: 20px 20px;
+    margin: 15px 0px;
+}
+.overlay{
+    text-align: center;
+}
+.submission{
+    color: palevioletred;
+    padding: 10px 20px;
+    height: 100%;
+}
